@@ -9,6 +9,7 @@ public class calc{
 		do{
 			System.out.print("1. ADD TWO Numbers\n");
 			System.out.print("2. Exit\n\n");
+			System.out.print("3. SUBTRACT\n");
 			System.out.print("Enter choice: ");
 			choice = scan.next().charAt(0);
 			
@@ -22,7 +23,7 @@ public class calc{
 
 				 case '2' :System.exit(0);
 						break;
-						
+				
 				 default: System.out.print("Invalid choice");
 					  break;
 			}
