@@ -9,6 +9,7 @@ public class calc{
 		do{
 			System.out.print("1. ADD TWO Numbers\n");
 			System.out.print("2. Exit\n\n");
+			System.out.print("4. multiply TWO Numbers\n");
 			System.out.print("Enter choice: ");
 			choice = scan.next().charAt(0);
 			
