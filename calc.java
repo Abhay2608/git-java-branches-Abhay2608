@@ -21,6 +21,12 @@ public class calc{
 					 res = a + b;
 					 System.out.print("Result = " + res);
 					 break;
+				case '3':System.out.print("Enter two numbers");
+					 a = scan.nextFloat();
+					 b = scan.nextFloat();
+					 res = a - b;
+					 System.out.print("Result = " + res);
+					 break;
 
 				 case '2' :System.exit(0);
 						break;
